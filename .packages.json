@@ -1,0 +1,41 @@
+{
+  "managers": {
+    "pacman": 1,
+    "yay": 2,
+    "flatpak": 3
+  },
+  "groups": {
+    "terminal_utils": 1,
+    "programming_tools": 2,
+    "gui_utils": 3,
+    "fonts": 4,
+    "packagers": 5,
+    "ethernet_utils": 6,
+    "audio_utils": 7
+  },
+  "packages": [
+    {"name": "zsh", "manager_id": 1, "group": 1},
+    {"name": "tree", "manager_id": 1, "group": 1},
+    {"name": "wl-clipboard", "manager_id": 1, "group": 1},
+    {"name": "mesa-demos", "manager_id": 1, "group": 1},
+    {"name": "mesa-utils", "manager_id": 1, "group": 1},
+    {"name": "docker", "manager_id": 1, "group": 2},
+    {"name": "docker-compose", "manager_id": 1, "group": 2},
+    {"name": "python-pip", "manager_id": 1, "group": 2},
+    {"name": "go", "manager_id": 1, "group": 2},
+    {"name": "grim", "manager_id": 1, "group": 3},
+    {"name": "slurp", "manager_id": 1, "group": 3},
+    {"name": "waybar", "manager_id": 1, "group": 3},
+    {"name": "swaync", "manager_id": 1, "group": 3},
+    {"name": "hyprpaper", "manager_id": 1, "group": 3},
+    {"name": "noto-fonts-emoji", "manager_id": 1, "group": 4},
+    {"name": "noto-fonts-cjk", "manager_id": 1, "group": 4},
+    {"name": "flatpak", "manager_id": 1, "group": 5},
+    {"name": "shadowsocks-rust", "manager_id": 1, "group": 6},
+    {"name": "pavucontrol", "manager_id": 1, "group": 7},
+    {"name": "mongodb-bin", "manager_id": 2, "group": 2},
+    {"name": "nerd-fonts-noto-sans-mono", "manager_id": 2, "group": 4},
+    {"name": "com.mongodb.Compass", "manager_id": 3, "group": 3},
+    {"name": "yay", "manager_id": null, "group": 5}
+  ]
+}
